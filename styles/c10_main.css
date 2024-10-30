@@ -12,6 +12,7 @@ body {
     width: 98%;                     /* changed from 800 pixels */
     max-width: 960px;
     margin: 0 auto;
+    display: grid;
     border: 3px solid #931420;
     background-color: #fffded;
 }
