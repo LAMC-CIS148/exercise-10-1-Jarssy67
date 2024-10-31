@@ -65,7 +65,17 @@ header img {
 #nav_menu a.current {
 	color: yellow;
 }
-
+.grid container {
+	display: grid;
+	grip-template-rows: 1fr 1fr 1fr 1fr;
+	grid-template-columns: 1fr;
+	gap: 1em;
+}
+.grid-container > div {
+	background-color: #ddd;
+	padding: 1em;
+	text-align: center;
+}
 /* the styles for the section */
 section {
     padding: 0 2.5% 20px 2.5%;
