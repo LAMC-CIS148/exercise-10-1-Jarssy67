@@ -73,11 +73,11 @@ nav {
 #nav_menu a.current {
 	color: yellow;
 }
-.grid container {
+.grid-container {
 	display: grid;
 	width: 100%;
 	grid-template-areas:
-	  "header"
+	   "header"
 	   "nav"
 	   "main"
 	   "footer";
