@@ -12,7 +12,6 @@ body {
     width: 98%;                     /* changed from 800 pixels */
     max-width: 960px;
     margin: 0 auto;
-    display: felx;
     display: grid;
     justify-content: center;
     border: 3px solid #931420;
