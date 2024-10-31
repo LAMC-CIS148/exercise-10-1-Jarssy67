@@ -23,6 +23,7 @@ a:focus, a:hover {
 }
 /* the styles for the header */
 header {
+	grid-area: header;
 	padding: 1.5em 0 2em 0;
 	border-bottom: 3px solid #931420;
 		background-image: -moz-linear-gradient(
@@ -50,6 +51,12 @@ header img {
 	text-shadow: 2px 2px 2px #800000;
 }
 /* the styles for the navigation menu */
+nav {
+    grid-area: nav;
+    background-color: #555;
+    color: maroon;
+    padding: 1em
+}
 #nav_menu ul {
 	list-style-type: none;
 	margin: 0;
@@ -70,14 +77,24 @@ header img {
 .grid container {
 	display: grid;
 	width: 100%;
-	grip-template-rows: auto auto auto auto;
+	grid-template-areas:
+	  "header"
+	   "nav"
+	   "main"
+	   "footer";
+	grip-template-rows: auto auto 1fr auto;
 	grid-template-columns: 1fr;
 	gap: 1em;
+	height: 100vh;
 }
 .grid-container > div {
 	background-color: #ddd;
 	padding: 1em;
 	text-align: center;
+}
+main {
+	grid-area: main;
+	padding: 1em;
 }
 /* the styles for the section */
 section {
@@ -151,6 +168,8 @@ footer {
 	background-color: #931420;
 }
 footer p {
+	text-align: center;
+	grid-area: footer;
 	text-align: center;
 	color: white;
 	padding: 1em 0;
