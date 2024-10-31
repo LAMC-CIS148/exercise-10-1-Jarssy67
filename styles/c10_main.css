@@ -84,7 +84,7 @@ nav {
 	grip-template-rows: auto auto 1fr auto;
 	grid-template-columns: 1fr;
 	gap: 1em;
-	height: 100vh;
+	height: 100px;
 }
 .grid-container > div {
 	background-color: #ddd;
