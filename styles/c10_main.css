@@ -12,7 +12,9 @@ body {
     width: 98%;                     /* changed from 800 pixels */
     max-width: 960px;
     margin: 0 auto;
+    display: felx;
     display: grid;
+    justify-content: center;
     border: 3px solid #931420;
     background-color: #fffded;
 }
@@ -67,7 +69,8 @@ header img {
 }
 .grid container {
 	display: grid;
-	grip-template-rows: 1fr 1fr 1fr 1fr;
+	width: 100%;
+	grip-template-rows: auto auto auto auto;
 	grid-template-columns: 1fr;
 	gap: 1em;
 }
