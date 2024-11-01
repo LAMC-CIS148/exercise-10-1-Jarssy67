@@ -94,20 +94,20 @@ nav {
 main {
 	grid-area: main;
 	display: grid;
-	grid-template-columns: [col-start] 30% [col-middle] 1fr [col-end];
-	grid-template-rows: [row-start] auto [row-end];
+	grid-template-columns: 30% 1fr;
+	grid-template-rows:auto;
 	gap: 2.5%;
 	padding: 1em;
 }
 .content-left {
-	grid-column: col-start / col-middle;
-	grid-row: row-start / row-end;
+	grid-column: 1 / 2;
+	grid-row: 1 / 2;
 	background-color: #fffded;
 	padding: 1em;
 }
 .content-right {
-	grid-column: col-start / col-middle;
-	grid-row: row-start / row-end;
+	grid-column: 2 / 3;
+	grid-row: 1 / 2;
 	background-color: #fffded;
 	padding: 1em;
 }
