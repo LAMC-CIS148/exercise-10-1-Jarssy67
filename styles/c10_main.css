@@ -54,7 +54,6 @@ nav {
     grid-area: nav;
     background-color: #555;
     color: maroon;
-    padding: 1em
 }
 #nav_menu ul {
 	list-style-type: none;
