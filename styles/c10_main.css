@@ -180,6 +180,7 @@ aside img {
 /* the styles for the footer */
 footer {
 	background-color: #931420;
+	grid-area: footer; 
 }
 footer p {
 	text-align: center;
