@@ -183,8 +183,6 @@ footer {
 }
 footer p {
 	text-align: center;
-	grid-area: footer;
-	text-align: center;
 	color: white;
 	padding: 1em 0;
 }
@@ -194,7 +192,7 @@ footer p {
 
 @media only screen and (max-width: 734px) {
 	section h1 {
-		font-size: 125%
+		font-size: 1.25em;
 	}
 	section h2, aside h2 {
 		font-size: 110%;
@@ -206,12 +204,7 @@ footer p {
 
 @media only screen and (max-width: 648px) {
 	header img { float: none; }
-	header { text-align: center; }
-	.header-grid {
-		display: grid;
-		grid-template-rows: auto auto auto;
-		grid-gap: .5em;
-	}
+	header { text-align: center; }`
 	section {
 		float: none;
 		width: 95%;
